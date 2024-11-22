@@ -17,7 +17,7 @@
   --visible-rec: block;
   --main-focus-button-border-color: var(--decor-color);
   --main-hover-button-border-color: var(--decor-color);
-  --page-bg-color: var(--secondary-text-color);
+  --page-bg-color: #000028;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,6 +34,6 @@
     --visible-rec: block;
     --main-focus-button-border-color: var(--decor-color);
     --main-hover-button-border-color: var(--decor-color);
-    --page-bg-color: var(--secondary-text-color);
+    --page-bg-color: #000028;
   }
 }

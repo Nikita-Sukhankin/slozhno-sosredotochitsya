@@ -10,7 +10,7 @@
   --decor-color: #ff0070;
   --secondary-text-color: #000028;
   --decor-text-color: var(--decor-color);
-  --main-bg-image: url(../images/cover-image-dark.png);
+  --main-bg-image: url("../images/cover-image-dark.png");
   --decor-shadow: var(--decor-color);
   --decor-rec-color: var(--decor-color);
   --decor-line-title: var(--decor-color);
@@ -27,7 +27,7 @@
     --decor-color: #ff0070;
     --secondary-text-color: #000028;
     --decor-text-color: var(--decor-color);
-    --main-bg-image: url(../images/cover-image-dark.png);
+    --main-bg-image: url("../images/cover-image-dark.png");
     --decor-shadow: var(--decor-color);
     --decor-rec-color: var(--decor-color);
     --decor-line-title: var(--decor-color);

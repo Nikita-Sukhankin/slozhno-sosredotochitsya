@@ -147,7 +147,7 @@
   outline: 1px solid currentColor;
 }
 
-main {
+.main {
   display: flex;
   flex-direction: column;
   padding-inline: 10px;

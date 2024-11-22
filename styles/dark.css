@@ -20,7 +20,7 @@
     --main-hover-button-border-color: var(--decor-color);
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --text-color: #f1b2ce;
     --title-text-color: #db00ff;

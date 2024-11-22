@@ -11,7 +11,6 @@
     --secondary-text-color: #000028;
     --decor-text-color: var(--decor-color);
     --main-bg-image: url(../images/cover-image-dark.png);
-    --section-bg-color: var(var(--secondary-text-color));
     --decor-shadow: var(--decor-color);
     --decor-rec-color: var(--decor-color);
     --decor-line-title: var(--decor-color);

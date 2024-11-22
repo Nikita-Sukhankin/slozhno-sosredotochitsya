@@ -12,14 +12,13 @@
   --decor-text-color: var(--text-color);
   --decor-shadow: var(--decor-color);
   --main-bg-image: url(../images/cover-image-light.png);
-  --section-bg-color: var(var(--secondary-text-color));
   --decor-line-title: var(--text-color);
   --visible-rec: none;
   --main-hover-button-border-color: #32312D66;
-  --main-focus-button-border-color: var(--text-color)
+  --main-focus-button-border-color: var(--text-color);
 }
 
-@media (prefers-color-scheme: light)  {
+@media (prefers-color-scheme: light) {
   :root {
     --text-color: #353430;
     --title-text-color: #FFC2E6;
@@ -27,11 +26,11 @@
     --secondary-text-color: #000028;
     --decor-text-color: var(--text-color);
     --decor-shadow: var(--decor-color);
-    --main-bg-image: url(../images/cover-image-light.png);
-    --section-bg-color: var(var(--secondary-text-color));  
+    --main-bg-image: url(../images/cover-image-light.png); 
     --decor-line-title: var(--text-color);
     --visible-rec: none;
-    --main-focus-button-border-color: var(--text-color)
+    --main-focus-button-border-color: var(--text-color);
+    --main-hover-button-border-color: var(--text-color);
     }
   }
 

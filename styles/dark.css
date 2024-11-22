@@ -20,23 +20,6 @@
     --main-hover-button-border-color: var(--decor-color);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #f1b2ce;
-    --title-text-color: #db00ff;
-    --decor-color: #ff0070;
-    --secondary-text-color: #000028;
-    --decor-text-color: var(--decor-color);
-    --main-bg-image: url(../images/cover-image-dark.png);
-    --section-bg-color: var(var(--secondary-text-color));
-    --decor-shadow: var(--decor-color);
-    --decor-rec-color: var(--decor-color);
-    --decor-line-title: var(--decor-color);
-    --visible-rec: block;
-    --main-focus-button-border-color: var(--decor-color);
-    --main-hover-button-border-color: var(--decor-color);
-}
-  }
 
 
 

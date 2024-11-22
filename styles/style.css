@@ -263,6 +263,7 @@ main {
   .header__title {
     font-size: var(--font-size-upper-text);
     margin-inline-start: -20px; 
+
   }
 
   main {
@@ -273,7 +274,7 @@ main {
 
   .section__block__title-clarification {
     margin-block-end: 20px; 
-
+  
   }
 
   .section__block-title {

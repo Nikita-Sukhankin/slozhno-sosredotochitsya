@@ -43,7 +43,6 @@
   color: var(--secondary-text-color);
 }
 
-
 .header__theme-menu {
   place-self: center end;
 }
@@ -53,7 +52,7 @@
   background-color: transparent;
   text-align: center;
   text-transform: lowercase;
-  font-family:  var(--main-font-family), monospace;
+  font-family: var(--main-font-family), monospace;
   font-size: var(--main-font-size);
   font-weight: var(--main-font-weight);
   line-height: 18px;
@@ -130,6 +129,7 @@
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--main-focus-button-border-color);
 }
+
 .header__theme-menu-button_active {
   pointer-events: none;
   outline: 1px solid var(--main-focus-button-border-color);
@@ -180,6 +180,7 @@ main {
   color: var(--text-color);
   margin-block-start: 10px;
 }
+
 .cards__item__text-link {
   color: var(--text-color);
   text-shadow: 2px 1px var(--decor-color);
@@ -230,26 +231,28 @@ main {
   text-shadow: 2px 4px 0 var(--decor-shadow);
 }
 
-@media (width >= 376px) {
+@media (width >=376px) {
   .header {
     margin-block-end: 60px;
     padding: 20px;
     min-block-size: 1024px;
   }
+
   .header__decorated-element::before {
     inset-inline-end: 48px;
     inset-block-start: 20px;
   }
-  
+
   .header__decorated-element::after {
     inset-inline-end: 28px;
     inset-block-start: 29px;
   }
+
   .decorated-zone::before {
     inset-inline-end: 20px;
     inset-block-start: 20px;
   }
-  
+
   .decorated-zone::after {
     inset-inline-start: 20px;
     inset-block-end: 20px;
@@ -259,21 +262,21 @@ main {
     place-self: center end;
     inline-size: 364px;
   }
-  
+
   .header__title {
     font-size: var(--font-size-upper-text);
-    margin-inline-start: -20px; 
- }
+    margin-inline-start: -20px;
+  }
 
-  main {
+  .main {
     padding-inline: 20px;
     margin-block-end: 60px;
     gap: 80px;
   }
 
   .section__block__title-clarification {
-    margin-block-end: 20px; 
- }
+    margin-block-end: 20px;
+  }
 
   .section__block-title {
     inline-size: 236px;
@@ -335,11 +338,11 @@ main {
   }
 }
 
-@media (width >= 769px) {
+@media (width >=769px) {
   .header {
     min-block-size: 768px;
   }
-  
+
   .title__paragraph {
     place-self: center end;
     inline-size: 491px;
@@ -347,9 +350,9 @@ main {
   }
 
   .header__theme-menu {
-    place-self: start center ;
+    place-self: start center;
   }
-  
+
   .header__theme-menu-list {
     flex-direction: row;
   }
@@ -361,9 +364,9 @@ main {
   .factors {
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "title . ."
-    "content content content";
+    grid-template-areas:
+      "title . ."
+      "content content content";
   }
 
   .factors .section__block-title {

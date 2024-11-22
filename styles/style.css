@@ -263,8 +263,7 @@ main {
   .header__title {
     font-size: var(--font-size-upper-text);
     margin-inline-start: -20px; 
-
-  }
+ }
 
   main {
     padding-inline: 20px;
@@ -274,8 +273,7 @@ main {
 
   .section__block__title-clarification {
     margin-block-end: 20px; 
-  
-  }
+ }
 
   .section__block-title {
     inline-size: 236px;

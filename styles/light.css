@@ -18,7 +18,7 @@
   --main-focus-button-border-color: var(--text-color);
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --text-color: #353430;
     --title-text-color: #FFC2E6;
@@ -30,7 +30,7 @@
     --decor-line-title: var(--text-color);
     --visible-rec: none;
     --main-focus-button-border-color: var(--text-color);
-    --main-hover-button-border-color: var(--text-color);
+    --main-hover-button-border-color: #32312D66;
     }
   }
 

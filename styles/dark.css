@@ -17,9 +17,10 @@
     --decor-line-title: var(--decor-color);
     --visible-rec: block;
     --main-focus-button-border-color: var(--decor-color);
+    --main-hover-button-border-color: var(--decor-color);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --text-color: #f1b2ce;
     --title-text-color: #db00ff;
@@ -33,6 +34,7 @@
     --decor-line-title: var(--decor-color);
     --visible-rec: block;
     --main-focus-button-border-color: var(--decor-color);
+    --main-hover-button-border-color: var(--decor-color);
 }
   }
 

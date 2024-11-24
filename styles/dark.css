@@ -16,7 +16,7 @@
   --decor-line-title: var(--decor-color);
   --visible-rec: block;
   --main-focus-button-border-color: var(--decor-color);
-  --main-hover-button-border-color: var(--decor-color);
+  --main-hover-button-border-color: #FF007066;
   --page-bg-color: #000028;
 }
 
@@ -33,7 +33,7 @@
     --decor-line-title: var(--decor-color);
     --visible-rec: block;
     --main-focus-button-border-color: var(--decor-color);
-    --main-hover-button-border-color: var(--decor-color);
+    --main-hover-button-border-color: #FF007066;
     --page-bg-color: #000028;
   }
 }

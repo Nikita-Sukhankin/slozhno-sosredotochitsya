@@ -12,7 +12,7 @@
     --decor-color: #ff0070;
     --decor-line-title: var(--decor-color);
     --decor-rec-color: var(--decor-color);
-    --main-hover-button-border-color: var(--decor-color);
+    --main-hover-button-border-color: #FF007066;
     --main-line-height: 23.4px;
     --decor-shadow: var(--decor-color);
     --secondary-text-color: #000028;

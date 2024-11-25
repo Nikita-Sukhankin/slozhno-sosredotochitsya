@@ -24,7 +24,7 @@
 }
 
 .title__paragraph {
-  margin-block-end: 30px;
+  margin-block-end: 35px;
 }
 
 .title {
@@ -37,7 +37,7 @@
 
 .header__title {
   text-shadow: 4px 4px 0 var(--decor-shadow);
-  margin-block-start: 15px;
+  margin-block-end: 10px;
 }
 
 .title-decor {
@@ -73,7 +73,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-block-start: -15px;
+  margin-block-end: 25px;
 }
 
 .header__decorated-element::before {
@@ -176,7 +176,7 @@
   flex-wrap: wrap;
 }
 
-.cards__item {
+.cards__item:not(:last-child) {
   margin-block-end: 20px;
 }
 
@@ -213,10 +213,6 @@
   line-height: var(--main-line-height);
 }
 
-.cards {
-  margin-block-end: -20px;
-}
-
 .gallery-block {
   display: flex;
   flex-direction: column;
@@ -232,6 +228,7 @@
   min-block-size: 667px;
   padding: 10px;
   position: relative;
+  inline-size: 375px;
 }
 
 .footer__title {
@@ -242,7 +239,7 @@
   .header {
     margin-block-end: 60px;
     padding: 20px;
-    min-block-size: 1024px;
+    inline-size: 768px;
   }
 
   .header__decorated-element::before {
@@ -268,17 +265,17 @@
   .title__paragraph {
     place-self: center end;
     inline-size: 364px;
-    margin-block-end: 83px;
+    margin-block-end: 105px;
   }
 
   .header__title {
     font-size: var(--font-size-upper-text);
     margin-inline-start: -20px;
-    margin-block-end: 5px;
+    margin-block-end: 50px;
   }
 
   .header__theme-menu-list {
-    margin-block-start: -64px;
+    margin-block-end: 60px;
   }
 
   .main {
@@ -350,13 +347,13 @@
 
   .footer {
     padding: 20px;
-    min-block-size: 768px;
+    inline-size: 768px;
   }
 }
 
 @media (width >=769px) {
   .header {
-    min-block-size: 768px;
+    inline-size: 1024px;
   }
 
   .header__title {
@@ -365,18 +362,17 @@
 
 
   .title__paragraph {
-    place-self: center end;
     inline-size: 491px;
     margin-block-end: 55px;
   }
 
   .header__theme-menu {
     place-self: start center;
+    margin-block-start: -125px;
   }
 
   .header__theme-menu-list {
     flex-direction: row;
-    margin-block-start: -121px;
   }
 
   .main {
@@ -418,7 +414,7 @@
   }
 
   .footer {
-    min-block-size: 728px;
+    inline-size: 1024px;
   }
 
   .footer__title {

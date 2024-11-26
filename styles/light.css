@@ -8,7 +8,7 @@
   --text-color: #353430;
   --title-text-color: #ffc2e6;
   --decor-color: #ff8dcb;
-  --secondary-text-color: #000028;
+  --secondary-text-color: #353430;
   --decor-text-color: var(--text-color);
   --decor-shadow: var(--decor-color);
   --main-bg-image: url("../images/cover-image-light.png");
@@ -24,7 +24,7 @@
     --text-color: #353430;
     --title-text-color: #ffc2e6;
     --decor-color: #ff8dcb;
-    --secondary-text-color: #000028;
+    --secondary-text-color: #353430;
     --decor-text-color: var(--text-color);
     --decor-shadow: var(--decor-color);
     --decor-line-title: var(--text-color);

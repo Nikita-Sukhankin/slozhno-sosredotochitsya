@@ -416,7 +416,7 @@
   }
 
   .section__block-title {
-    max-inline-size: 315px;
+    min-inline-size: 315px;
     width: 100%;
   }
 
